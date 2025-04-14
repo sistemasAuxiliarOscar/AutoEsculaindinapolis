@@ -1,0 +1,39 @@
+
+footer {
+  background-color:#006699;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.header-reservation {
+  background-color: #006699;
+}
+
+.reservation-text {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.reservation-phone {
+  color: rgba(255, 255, 0, 0.935);
+}
+
+.mi-enlace {
+  font-weight: bold;         /* Texto en negrita */
+  text-transform: uppercase; /* Mayúsculas */
+  color: rgb(190, 223, 23);              /* Texto negro */
+  text-decoration: none;     /* Sin subrayado */
+  padding: 10px 15px;        /* Espaciado interior */
+  display: inline-block;     /* Para que respete padding y hover */
+  transition: color 0.3s;    /* Suaviza el cambio de color */
+}
+
+carousel-item active mi-slide{
+  height: 400px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
